@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/fluent-hc-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/httpclient-win-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/JAVA包/httpcomponents-client-4.5.2/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-8.0.26/lib/servlet-api.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="D:/android-sdk-windows/extras/android/appcompat_v7/bin/android-support-v7-appcompat.jar"/>
+	<classpathentry kind="lib" path="D:/android-sdk-windows/extras/android/appcompat_v7/libs/android-support-v4.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

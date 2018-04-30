@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+<LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_title_bar"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="45dp"
+                android:text="我的订单"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp" >
+        <TextView
+            android:id="@+id/tvdesk"
+            android:textColor="#000"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" /> 
+        <TextView
+            android:id="@+id/tvid"
+            android:textColor="#000"
+            android:layout_marginLeft="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />       
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvtime"
+            android:textColor="#000"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" /> 
+         
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp" >     
+        <TextView
+            android:id="@+id/tvname1"
+            android:textColor="#000"
+            android:text="菜品名称"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="70dp"/>   
+            
+        <TextView
+            android:id="@+id/tvnum1"
+            android:textColor="#000"
+            android:text="数量"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="60dp"/>   
+            
+        <TextView
+            android:id="@+id/tvprice1"
+            android:textColor="#000"
+            android:text="金额"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="60dp"/> 
+           
+        </LinearLayout>
+     </LinearLayout>
+</LinearLayout> 
+
+<View
+     android:layout_width="match_parent" 
+    android:layout_height="2dip"
+    android:background="#FF909090" 
+    android:layout_marginLeft="50dip"
+    android:layout_marginRight="50dip" 
+    android:layout_marginTop="120dp" />
+
+<ImageView
+        android:id="@+id/returnimg"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:src="@drawable/returnimg" />
+
+
+    <ListView
+        android:id="@+id/listorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="123dp"
+        android:scrollbars="none" />
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/listorder" >  
+        
+    <View android:layout_width="match_parent" 
+    android:layout_height="2dip"
+    android:background="#FF909090" 
+    android:layout_marginLeft="50dip"
+    android:layout_marginRight="50dip"  />
+    
+     <TextView
+            android:id="@+id/tvamount"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="231dp"/>
+</LinearLayout>
+</RelativeLayout>
